@@ -113,10 +113,10 @@ fileInput <- function(inputId, label, multiple = FALSE, accept = NULL,
           buttonLabel,
           inputTag
         )
-      ),
-      tags$input(type = "text", class = "form-control",
-        placeholder = placeholder, readonly = "readonly"
       )
+      # tags$input(type = "text", class = "form-control",
+      #   placeholder = placeholder, readonly = "readonly"
+      # )
     ),
 
     tags$div(
